@@ -45,15 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoryDAL.cs" />
+    <Compile Include="CustomerDAL.cs" />
+    <Compile Include="OrderDAL.cs" />
+    <Compile Include="OrderDetailDAL.cs" />
+    <Compile Include="ProductDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\Facturador.Entities\Facturador.Entities.csproj">
+    <ProjectReference Include="..\..\Shared\Facturador.Entities\SharedLayer.csproj">
       <Project>{FAFE8B25-1EB9-4F68-8341-FDC7BD5EFB21}</Project>
-      <Name>Facturador.Entities</Name>
+      <Name>SharedLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

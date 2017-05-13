@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{660A647B-70E5-4D46-A586-DDC1BD0467A4}</ProjectGuid>
+    <ProjectGuid>{FAFE8B25-1EB9-4F68-8341-FDC7BD5EFB21}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Facturador.Business</RootNamespace>
-    <AssemblyName>Facturador.Business</AssemblyName>
+    <RootNamespace>Facturador.Entities</RootNamespace>
+    <AssemblyName>Facturador.Entities</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,25 +31,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.Transactions" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Category.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderDetail.cs" />
+    <Compile Include="OrderdetalTMP.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Data\Facturador.Data\Facturador.Data.csproj">
-      <Project>{D5BFF6E7-6540-442B-9E06-F688DCBD99D4}</Project>
-      <Name>Facturador.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Shared\Facturador.Entities\Facturador.Entities.csproj">
-      <Project>{FAFE8B25-1EB9-4F68-8341-FDC7BD5EFB21}</Project>
-      <Name>Facturador.Entities</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

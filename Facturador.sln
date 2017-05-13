@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{AC8C09C3-AFF0-4BE0-BA50-9BA657C26AED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facturador.Entities", "Shared\Facturador.Entities\Facturador.Entities.csproj", "{FAFE8B25-1EB9-4F68-8341-FDC7BD5EFB21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLayer", "Shared\Facturador.Entities\SharedLayer.csproj", "{FAFE8B25-1EB9-4F68-8341-FDC7BD5EFB21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facturador.Data", "Data\Facturador.Data\Facturador.Data.csproj", "{D5BFF6E7-6540-442B-9E06-F688DCBD99D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "Data\Facturador.Data\DataLayer.csproj", "{D5BFF6E7-6540-442B-9E06-F688DCBD99D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facturador.Business", "Business\Facturador.Business\Facturador.Business.csproj", "{660A647B-70E5-4D46-A586-DDC1BD0467A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusisnessLayer", "Business\Facturador.Business\BusisnessLayer.csproj", "{660A647B-70E5-4D46-A586-DDC1BD0467A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facturador.UI.Web", "Presentation\Facturador.UI.Web\Facturador.UI.Web.csproj", "{1690B99B-5453-4BE6-93D2-2D29B6E5082C}"
 EndProject
